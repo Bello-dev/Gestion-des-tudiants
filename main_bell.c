@@ -13,6 +13,7 @@ int main() {
     int choix_BE;
     char nom_BE[50], prenom_BE[50];
     int age_BE;
+    system("clear");
 
     do {
         printf("\n====== MENU ======\n");
@@ -26,6 +27,8 @@ int main() {
 
         switch (choix_BE) {
             case 1:
+                system("clear");
+
                 printf("Entrez le nom : ");
                 scanf("%s", nom_BE);
                 printf("Entrez le prénom : ");
@@ -36,6 +39,8 @@ int main() {
                 break;
 
             case 2:
+                system("clear");
+
                 printf("Entrez le matricule de l'étudiant à rechercher : ");
                 char matricule_BE[10];
                 scanf("%s", matricule_BE);
@@ -50,20 +55,24 @@ int main() {
                 break;
 
             case 3:
+                system("clear");
                 printf("Entrez le matricule de l'étudiant à supprimer : ");
                 scanf("%s", matricule_BE);
                 supprimer_etudiant_BE(matricule_BE);
                 break;
 
             case 4:
+                system("clear");
                 afficher_table_BE();
                 break;
 
             case 5:
+                system("clear");
                 printf("Au revoir !\n");
                 break;
 
             default:
+                system("clear");
                 printf("Choix invalide, réessayez.\n");
         }
     } while (choix_BE != 5);
