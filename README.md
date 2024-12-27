@@ -16,19 +16,19 @@ Naviguer dans le répertoire du projet
 
 Compiler le programme
 
-gcc -o gestion_etudiants fonction_bell.c
+      make
 
 Utilisation
 
 Pour utiliser le programme, exécutez la commande suivante :
 
-./gestion_etudiants
+      make run
 
 Contribution
 
 Les contributions sont les bienvenues ! Pour contribuer, veuillez suivre les étapes suivantes :
 
-    Fork le dépôt
+   Fork le dépôt
     Créer une branche pour votre fonctionnalité ou correction de bug
 
     git checkout -b ma-nouvelle-fonctionnalite
